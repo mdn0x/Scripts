@@ -19,7 +19,7 @@ Contributions are welcome! Feel free to submit your scripts or improvements.
 
 ## License
 
-This repository is licensed under the MIT License.
+Nah
 
 ---
 
