@@ -5,7 +5,7 @@ Django RCE Pickle Code Injection Vulnerability
 
 [-] Vulnerabilities Description:
 
- Django reads the contents of the cached file directly with loads without any filtering. This means that we can construct any malicious serialized content to control the content returned by Django, or even RCE, and as long as we know the name and location where the cache is stored, then we will be able to execute the code directly.
+Django reads the contents of the cached file directly with loads without any filtering. This means that we can construct any malicious serialized content to control the content returned by Django, or even RCE, and as long as we know the name and location where the cache is stored, then we will be able to execute the code directly.
 
 This python script generate a cache, generate a pickle serialized Payload, then write the encoded RCE to the existing cache.
 
